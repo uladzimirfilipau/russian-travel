@@ -1,0 +1,12 @@
+.header__logo-links {
+  align-self: flex-end;
+  display: flex;
+  gap: 18px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 425px) {
+  .header__logo-links {
+    margin-bottom: 6px;
+  }
+}
