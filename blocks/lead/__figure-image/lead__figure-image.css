@@ -1,0 +1,6 @@
+.lead__figure-image {
+  border: 1px solid red;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+

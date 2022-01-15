@@ -1,0 +1,27 @@
+.lead__figure-caption {
+  border: 1px solid red;
+  max-width: 158px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  margin-top: 8px;
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__figure-caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__figure-caption {
+    margin: 8px 0 0;
+  }
+}

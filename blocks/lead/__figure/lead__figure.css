@@ -1,0 +1,15 @@
+.lead__figure {
+  margin: 40px 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__figure {
+    margin: 52px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__figure {
+    margin: 64px 0 0;
+  }
+}

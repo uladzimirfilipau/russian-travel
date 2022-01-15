@@ -9,3 +9,14 @@
 @import url(../blocks/header/__logo-links/header__logo-links.css);
 @import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header/__logo-link/_enabled/header__logo-link_enabled.css);
+
+/*CONTENT*/
+@import url(../blocks/content/content.css);
+
+/* LEAD */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
+@import url(../blocks/lead/__figure-image/lead__figure-image.css);
+@import url(../blocks/lead/__figure-caption/lead__figure-caption.css);
