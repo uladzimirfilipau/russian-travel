@@ -1,12 +1,14 @@
 .header__logo-links {
+  list-style-type: none;
   align-self: flex-end;
   display: flex;
   gap: 18px;
-  margin-bottom: 8px;
+  margin: 0 0 8px 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 425px) {
   .header__logo-links {
-    margin-bottom: 6px;
+    margin-bottom: 0 0 6px 0;
   }
 }
