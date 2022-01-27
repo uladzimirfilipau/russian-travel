@@ -1,0 +1,5 @@
+.list__image {
+  width: 96px;
+  border-radius: 50%;
+  grid-area: image;
+}

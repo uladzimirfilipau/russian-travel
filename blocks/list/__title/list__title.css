@@ -1,0 +1,10 @@
+.list__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin: 16px 0 0;
+  grid-area: author;
+}

@@ -1,0 +1,17 @@
+.comments {
+  margin: 0 16px;
+  display: grid;
+  justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .comments {
+    margin: 0 54px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .comments {
+    margin: 0 48px;
+  }
+}

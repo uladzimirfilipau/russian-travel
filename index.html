@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
+    <meta
+      name="description"
+      content="Путешествия по России. Настоящая страна не в выпусках новостей, а здесь."
+    />
+    <meta
+      name="keywords"
+      content="путешествия, Россия, Куршская коса, Кольский, Алтай, Зимний Байкал, Карелия"
+    />
+    <meta name="author" content="Вова Ф." />
   </head>
   <body class="page">
     <!--HEADER-->
@@ -78,7 +87,7 @@
         </ul>
       </section>
       <!--PHOTO-GRID-->
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="Фотографии из разных мест России">
         <ul class="photo-grid__list">
           <li>
             <img
@@ -304,7 +313,6 @@
               </p>
             </div>
           </li>
-
           <li class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
@@ -333,6 +341,105 @@
                 Чтобы все знали, кто тут хозяин.
               </p>
             </div>
+          </li>
+        </ul>
+      </section>
+      <!-- VIDEO -->
+      <section class="video">
+        <h2 class="section__title">
+          В&nbsp;глубины Земли и&nbsp;в&nbsp;дальний космос
+        </h2>
+        <p class="section__subtitle">
+          Видео от&nbsp;студии Stereotactic о&nbsp;местах в&nbsp;России, где
+          ведутся фундаментальные исследования
+        </p>
+        <ul class="video__container">
+          <li>
+            <a
+              href="https://vimeo.com/81106671"
+              target="_blank"
+              class="video__link video__link_kamchatka"
+            >
+              <img
+                src="./images/icon_play.svg"
+                alt=""
+                class="video__icon-play"
+              />
+              <p class="video__duration">6:30</p>
+              <h3 class="video__container-title">Colors of Kamchatka</h3>
+              <p class="video__container-subtitle">
+                Director: Pavel Karykhalin
+              </p></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://vimeo.com/290675450"
+              target="_blank"
+              class="video__link video__link_observatory"
+            >
+              <img
+                src="./images/icon_play.svg"
+                alt=""
+                class="video__icon-play"
+              />
+              <p class="video__duration">24:45</p>
+              <h3 class="video__container-title">Обсерватория | Observatory</h3>
+              <p class="video__container-subtitle">
+                Director: Alexander Khudokon
+              </p></a
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- COMMENTS -->
+      <section class="comments">
+        <h2 class="section__title">Фотографы, снимающие Россию</h2>
+        <p class="section__subtitle">
+          Природа и&nbsp;люди вдохновили их&nbsp;работы, удостоенные наград
+          на&nbsp;международных конкурсах
+        </p>
+        <ul class="list">
+          <li class="list__item">
+            <img
+              src="./images/lyagushkin.jpg"
+              alt="Виктор Лягушкин"
+              class="list__image"
+            />
+            <h3 class="list__title">Виктор Лягушкин</h3>
+            <blockquote class="list__quote">
+              &laquo;Если вам кажется, что в&nbsp;России ничего
+              не&nbsp;происходит, то&nbsp;просто выгляньте
+              &ldquo;наружу&rdquo;...&raquo;
+            </blockquote>
+          </li>
+          <li class="list__item">
+            <img
+              src="./images/hafizov.jpg"
+              alt="Иван Хафизов"
+              class="list__image"
+            />
+            <h3 class="list__title">Иван Хафизов</h3>
+            <blockquote class="list__quote">
+              &laquo;Если в&nbsp;город едут туристы&nbsp;&mdash; неважно
+              за&nbsp;чем они туда едут: за&nbsp;шамбалой или фрески Рублева
+              искать, или на&nbsp;родину Тарковского&nbsp;&mdash; туристы
+              обеспечивают любой город молодёжью, рабочими местами
+              и&nbsp;в&nbsp;конечном счёте наполняют его жизнью.&raquo;
+            </blockquote>
+          </li>
+          <li class="list__item">
+            <img
+              src="./images/maksimshin.jpg"
+              alt="Сергей Максимишин"
+              class="list__image"
+            />
+            <h3 class="list__title">Сергей Максимишин</h3>
+            <blockquote class="list__quote">
+              &laquo;Ты&nbsp;приезжаешь, и&nbsp;люди рассказывают тебе, как
+              им&nbsp;плохо. А&nbsp;когда ты&nbsp;покажешь, как им&nbsp;плохо,
+              то&nbsp;ты&nbsp;сволочь и&nbsp;всё очернил.&raquo;
+            </blockquote>
           </li>
         </ul>
       </section>
@@ -399,7 +506,7 @@
           </li>
         </ul>
       </nav>
-      <p class="footer__copyright">&copy; 2022. Владимир Филиппов</p>
+      <p class="footer__copyright">&copy; 2022. Вова Ф.</p>
     </footer>
   </body>
 </html>
