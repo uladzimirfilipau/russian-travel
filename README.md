@@ -1,16 +1,14 @@
-# Проект: Путешествие по России
+# Adaptive one-page website.
 
-## Адаптивный одностраничный сайт.
+### Technologies  
+- The project uses HTML document markup language and CSS document appearance description language.  
+- The file structure of the project was created according to the rules of Nested BEM.  
+- Practiced the acquired knowledge about positioning, flexbox layout and grids.  
+- Used media queries to set specific rules for different screen sizes.  
+- Worked with the layout in the graphic editor "Figma".  
 
-### Технологии
-- В проекте использованы язык разметки документа HTML и язык описания внешнего вида документа CSS.
-- Файловая структура проекта создана по правилам Nested БЭМ.
-- Применял на практике полученные знания о позиционировании, флексбокс-вёрстке и гридах.
-- Использовал медиа-запросы для задания специфических правил для разных размеров экранов.
-- Работал с макетом в графическом редакторе «Фигма».
+### Layout
+* [Link to the Figma layout](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-### Макет
-* [Ссылка на макет Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
-
-### Готовая страница
-* Готовую страницу можно посмотреть [по ссылке](https://uladzimirfilipau.github.io/russian-travel/)
+### Finished page
+* The finished page can be viewed [by link](https://uladzimirfilipau.github.io/russian-travel/)
